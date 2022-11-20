@@ -29,6 +29,9 @@ yarn global add serve
 # Mobile App Environment 
 brew install watchman
 brew install cocoapods
+brew tap facebook/fb
+brew install idb-companion
+pip3 install fb-idb
 
 # React Native Environment
 yarn global add expo-cli
