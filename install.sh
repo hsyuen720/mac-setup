@@ -26,6 +26,13 @@ nvm install 16 --default # the minimum version expo-cli is 16
 npm i -g yarn
 yarn global add serve
 
+# rvm
+brew install gnupg
+command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
+command curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -
+\curl -sSL https://get.rvm.io | bash -s stable
+
+
 # Mobile App Environment 
 brew install watchman
 brew install cocoapods
