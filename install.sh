@@ -24,7 +24,6 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 nvm install 16 --default # the minimum version expo-cli is 16
 npm i -g yarn
-yarn global add serve
 
 # rvm
 brew install gnupg
@@ -38,7 +37,7 @@ brew install watchman
 brew install cocoapods
 brew tap facebook/fb
 brew install idb-companion
-pip3 install fb-idb
+# pip3 install fb-idb
 
 # React Native Environment
 yarn global add expo-cli
@@ -63,9 +62,8 @@ cp -a $(pwd)/fonts/* ~/Library/Fonts
 echo "setup software"
 brew install --cask visual-studio-code
 brew install --cask postman
-brew install --cask github
+brew install --cask sourcetree
 brew install --cask google-chrome
-brew install --cask signal
 brew install --cask appcleaner
 brew install --cask notion
 brew install --cask typora
@@ -73,7 +71,6 @@ brew install --cask android-studio
 brew install --cask android-platform-tools
 brew install --cask flipper
 brew install --cask docker
-brew install --cask anydesk
 
 # ---------- Free App Store Application ---------- 
 mas install 497799835 # Xcode
@@ -82,7 +79,6 @@ mas install 409201541 # Pages
 mas install 409203825 # Numbers
 mas install 409183694 # Keynote
 mas install 1176895641 # Spark
-mas install 1444383602 # GoodNotes 5
 mas install 1559269364 # Notion Web Clipper (Safari Web Extension)
 
 # ---------- Paid App Store Application ---------- 
